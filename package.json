@@ -1,0 +1,19 @@
+{
+  "name"        : "feeds",
+  "version"     : "1.0.0",
+  "description" : "Used to fetch the facebook contents of an user",
+  "main"        : "index.js",
+  "scripts"     : {
+    "test"  : "echo \"Error: no test specified\" && exit 1"
+  },
+  "author"      : "Vignesh",
+  "license"     : "ISC",
+  "dependencies": {
+    "async"         : "^2.5.0",
+    "facebook-node" : "0.0.3",
+    "joi"           : "^10.6.0",
+    "moment"        : "^2.18.1",
+    "twitter"       : "^1.7.1",
+    "underscore"    : "^1.8.3"
+  }
+}
